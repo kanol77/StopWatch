@@ -19,6 +19,48 @@ body{
     flex-direction: column;
 }
 
+.container > .ret{
+    font-size: 2vw;
+    padding: 1vw;
+    margin: 2vw;
+    border: 0.3vw solid black;
+    cursor: pointer;
+    border-radius: 5%;
+    background-color: orange;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.container > .ret:hover{
+    box-shadow: 0px 0px 5vw 2vw rgb(196, 147, 56);
+    opacity: 0.9;
+    transition: 0.7s;
+}
+
+.container > .tim{
+    font-size: 2vw;
+    padding: 1vw;
+    margin: 2vw;
+    border: 0.3vw solid black;
+    cursor: pointer;
+    border-radius: 5%;
+    background-color: orange;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.container > .tim:hover{
+    box-shadow: 0px 0px 5vw 2vw rgb(196, 147, 56);
+    opacity: 0.9;
+    transition: 0.7s;
+}
+
 .watch{
     display: flex;
     justify-content: center;
@@ -51,4 +93,29 @@ h1{
     -webkit-text-stroke: 0.3vw black;
     text-shadow: 0vw 1.5vw 2vw rgba(0, 0, 0, 1);
     cursor: pointer;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-buttons, .bottom-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8.5vw;
+}
+
+.bttn{
+    font-weight: bolder;
+    font-size: 4vw;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+.bttn:hover{
+    color: orange;
+    transition: 0.3s ease-in;
 }
