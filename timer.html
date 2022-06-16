@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+    <script src="Tscript.js" defer></script>
+    <link rel="icon" href="timer-icon.PNG">
+</head>
+<body>
+    <div class="container">
+        <h1 id="home">Timer</h1>
+        <div class="watch">
+            <div class="col">
+                <div class="top-buttons">
+                    <input type="button" value="&#8679" id="mins1up" class="bttn">
+                    <input type="button" value="&#8679" id="mins2up" class="bttn">
+                </div>
+                <div class="mins">00</div>
+                <div class="bottom-buttons">
+                    <input type="button" value="&#8681" id="mins1down" class="bttn">
+                    <input type="button" value="&#8681" id="mins2down" class="bttn">
+                </div>
+            </div>
+            :
+            <div class="col">
+                <div class="top-buttons">
+                    <input type="button" value="&#8679" id="secs1up" class="bttn">
+                    <input type="button" value="&#8679" id="secs2up" class="bttn">
+                </div>
+                <div class="secs">00</div>
+                <div class="bottom-buttons">
+                    <input type="button" value="&#8681" id="secs1down" class="bttn">
+                    <input type="button" value="&#8681" id="secs2down" class="bttn">
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <input type="button" class="start" value="Start">
+            <input type="button" class="stop" value="Stop">
+            <input type="button" class="reset" value="Reset">
+        </div>
+        <input type="button" value="Stopwatch" class="ret">
+    </div>
+</body>
+</html>
