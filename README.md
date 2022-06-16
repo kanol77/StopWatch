@@ -1,4 +1,4 @@
-# StopWatch
+# StopWatch and Timer
 Simple Stopwatch and Timer in JavaScript.
 
 This project contains files that make up a Stopwatch and Timer Web App.
