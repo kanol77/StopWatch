@@ -6,9 +6,14 @@ const watchFace = document.querySelector('.watch');
 const milis = document.querySelector('.milisecs');
 const secs = document.querySelector('.secs');
 const mins = document.querySelector('.mins');
+const timerButton = document.querySelector('.tim');
 
 homeButton.addEventListener('click', () => {
     window.location.reload();
+})
+
+timerButton.addEventListener('click', () => {
+    window.location.href = "./timer.html";
 })
 
 let onceClicked = false;
